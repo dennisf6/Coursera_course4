@@ -5,3 +5,57 @@
   border: 2px solid red;
   background-color: gray;
 }
+.navbar-brand {
+  padding-top: 25px;
+}
+.navbar-brand h1 { /* Restaurant name */
+  font-family: 'Lora', serif;
+  color: #000;
+  font-size: 1.5em;
+  font-weight: bold;
+  text-shadow: 1px 1px 1px #222;
+  margin-top: 0;
+  margin-bottom: 0px;
+  line-height: .75;
+}
+.navbar-brand a:hover, .navbar-brand a:focus {
+  text-decoration: none;
+}
+.navbar-brand p { /* Kosher cert */
+  color: #000;
+  text-transform: uppercase;
+  font-size: .7em;
+  margin-top: 15px;
+}
+#nav-list {
+  margin-top: 10px;
+  background-color: lightyellow;
+}
+#nav-list a {
+  color: #951C49;
+  text-align: center;
+}
+#nav-list a:hover {
+  background: #E7E7E7;
+}
+#nav-list a span {
+  font-size: 1.8em;
+}
+#box {
+  background-color: #D6DBDF;   /* light gray */
+  margin-top: 20px;
+  margin-bottom: 20px;
+  overflow: auto;
+  position: relative;
+
+}
+#content {
+   background-color: #D6DBDF; /* light gray */
+   margin-top: 15px;
+   float left; 
+   position: relative;
+ }
+ #section1 {
+ text-align: center;
+ font-weight: bold;
+}
